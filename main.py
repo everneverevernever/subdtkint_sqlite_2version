@@ -8,7 +8,7 @@ window = Tk()
 window.title('subd')
 window.minsize(700, 450)
 
-frame_change = Frame(window, width=150, height=150, bg='red')  # блок для функционала субд
+frame_change = Frame(window, width=150, height=150, bg='white')  # блок для функционала субд
 frame_view = Frame(window, width=150, height=150, bg='blue')  # блок для просмотра базы данных
 frame_change.place(relx=0, rely=0, relwidth=1, relheight=1)
 frame_view.place(relx=0, rely=0.5, relwidth=1, relheight=0.5)
